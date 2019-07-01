@@ -1,0 +1,30 @@
+{
+  "name": "demo",
+  "version": "0.1.0",
+  "main": "app.js",
+  "dependencies": {
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "rc": "1.1.6",
+    "sails": "0.12.14",
+    "sails-mysql": "^0.12.1",
+    "sails-service-cipher": "^3.2.1",
+    "sails-service-hash": "^3.2.1"
+  },
+  "devDependencies": {
+    "esdoc": "0.4.3",
+    "chai": "3.4.1",
+    "istanbul": "0.4.2",
+    "mocha": "2.3.4",
+    "sails-memory": "0.10.5",
+    "sinon": "1.17.2"
+  },
+  "scripts": {
+    "clean": "rm -rf ./.tmp",
+    "debug": "node debug app.js",
+    "docs": "esdoc -c esdoc.json",
+    "start": "node app.js",
+    "test": "istanbul cover _mocha"
+  }
+}
