@@ -13,7 +13,7 @@
     "sails-service-hash": "^3.2.1"
   },
   "devDependencies": {
-    "esdoc": "0.4.3",
+    "esdoc": "0.4.8",
     "chai": "3.4.1",
     "istanbul": "0.4.2",
     "mocha": "2.3.4",
